@@ -1,0 +1,40 @@
+{
+  "name": "thejano/easy-php-regex",
+  "description": "A human-readable regex builder for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pshtiwan Mahmood",
+      "email": "pshtiwan@thejano.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TheJano\\EasyRegex\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TheJano\\EasyRegex\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "keywords": [
+    "regex",
+    "builder",
+    "php",
+    "regex-builder"
+  ],
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
